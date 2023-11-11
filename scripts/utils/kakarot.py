@@ -378,7 +378,7 @@ async def store_bytecode(bytecode: Union[str, bytes], **kwargs):
 
     Note: Deploying directly a contract account and using `write_bytecode` would not
     produce an EVM contract registered in Kakarot and thus is not an option. We need
-    to have Kakarot deploying EVM contrats.
+    to have Kakarot deploying EVM contracts.
     """
     bytecode = (
         bytecode
